@@ -1,0 +1,10 @@
+Resumen de lo que tiene el código:
+
+class Socio con propiedades private → solo accesibles via getters/setters
+__construct() → se ejecuta solo al hacer new Socio(...)
+$this-> → referencia al objeto actual
+$socios[] → array de objetos que crece en memoria
+cedulaExiste() → función que evita duplicados usando foreach + getCedula()
+buscarPorCedula() → devuelve ?Socio (nullable: Socio o null)
+do-while → menú que corre al menos una vez y para cuando elegís opción 3
+readline() → lee input del usuario desde consola.
